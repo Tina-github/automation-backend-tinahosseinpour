@@ -1,0 +1,195 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 6,
+    "passes": 6,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-11-17T10:14:05.919Z",
+    "end": "2020-11-17T10:14:14.656Z",
+    "duration": 8737,
+    "testsRegistered": 6,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "78069ef3-3f54-41ee-8971-ae8a1788e810",
+      "title": "",
+      "fullFile": "cypress/integration/backend-auth.spec.js",
+      "file": "cypress/integration/backend-auth.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "2e505d3a-c25d-48d0-936d-3364ca5b7c74",
+          "title": "testing auth",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Create a new client",
+              "fullTitle": "testing auth Create a new client",
+              "timedOut": null,
+              "duration": 2479,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "clientHelpers.createClientRequest(cy);",
+              "err": {},
+              "uuid": "eccfe671-3fc6-440b-930e-c26bb767d10d",
+              "parentUUID": "2e505d3a-c25d-48d0-936d-3364ca5b7c74",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Get all clients",
+              "fullTitle": "testing auth Get all clients",
+              "timedOut": null,
+              "duration": 934,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "clientHelpers.getAllClientsRequest(cy);",
+              "err": {},
+              "uuid": "b542c6cf-8553-43ed-82f9-5e1891a809b1",
+              "parentUUID": "2e505d3a-c25d-48d0-936d-3364ca5b7c74",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Create a new room",
+              "fullTitle": "testing auth Create a new room",
+              "timedOut": null,
+              "duration": 1209,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "roomHelpers.createRoomRequest(cy);",
+              "err": {},
+              "uuid": "400d9236-f743-4cb4-a54c-b0fcff57a550",
+              "parentUUID": "2e505d3a-c25d-48d0-936d-3364ca5b7c74",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Get all rooms",
+              "fullTitle": "testing auth Get all rooms",
+              "timedOut": null,
+              "duration": 709,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "roomHelpers.getAllRoomsRequest(cy);",
+              "err": {},
+              "uuid": "961f25c4-bd31-4aa4-8606-f47adbb1db4c",
+              "parentUUID": "2e505d3a-c25d-48d0-936d-3364ca5b7c74",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Edit a  room",
+              "fullTitle": "testing auth Edit a  room",
+              "timedOut": null,
+              "duration": 1074,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "roomHelpers.editRoomRequest(cy);",
+              "err": {},
+              "uuid": "fa0c5281-25f6-4165-a39e-63e113204fde",
+              "parentUUID": "2e505d3a-c25d-48d0-936d-3364ca5b7c74",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Create a room and delete",
+              "fullTitle": "testing auth Create a room and delete",
+              "timedOut": null,
+              "duration": 1373,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "roomHelpers.createRoomRequestAndDelete(cy);",
+              "err": {},
+              "uuid": "d06fe4b9-bf09-4ddb-a3fb-fdbff4f1119c",
+              "parentUUID": "2e505d3a-c25d-48d0-936d-3364ca5b7c74",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "eccfe671-3fc6-440b-930e-c26bb767d10d",
+            "b542c6cf-8553-43ed-82f9-5e1891a809b1",
+            "400d9236-f743-4cb4-a54c-b0fcff57a550",
+            "961f25c4-bd31-4aa4-8606-f47adbb1db4c",
+            "fa0c5281-25f6-4165-a39e-63e113204fde",
+            "d06fe4b9-bf09-4ddb-a3fb-fdbff4f1119c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 7778,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.1.0"
+    }
+  }
+}
