@@ -36,7 +36,7 @@ function editRoomPayload(){
 }
 
 function getRequestAllRoomsWithAssertion(cy,features, category, number, floor , available , price){
-    // GET request to fetch all clients
+    // GET request to fetch all rooms
     cy.request({
         method: "GET",
         url: ENDPOINT_GET_ROOMS,
@@ -142,7 +142,7 @@ cy.authenticateSession().then((response =>{
         let lastId = response.body[response.body.length -1].id
     
         
-        // post request to create a room
+        // post request to edit a room
         cy.request({
             method: "PUT",
             url: ENDPOINT_PUT_ROOM+lastId,
@@ -177,6 +177,7 @@ function createRoomRequestAndDelete(cy){
            const responseAsString = JSON.stringify(response)
            expect(responseAsString).to.have.string(RoomPayload.number)
         }))
+        // Delete a room
 
         deleteRequestAfterGet(cy)
     }))
